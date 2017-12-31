@@ -133,21 +133,9 @@
         <property name="filterChainDefinitions">
             <value>
 				/index.jsp* = anon
-				/sysadmin/login/login.jsp* = anon
-				/sysadmin/login/logout.jsp* = anon
 				/login* = anon
 				/logout* = anon
 				/home* = anon
-				/components/** = anon
-				/css/** = anon
-				/images/** = anon
-				/js/** = anon
-				/make/** = anon
-				/skin/** = anon
-				/stat/** = anon
-				/ufiles/** = anon
-				/validator/** = anon
-				/resource/** = anon
 				
 				# URL-to-FilterChain(we customized) definitions here.And you can also add in map
                 /** = someFilter
